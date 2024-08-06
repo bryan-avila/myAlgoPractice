@@ -12,10 +12,10 @@ public class SelectionSort {
     }
 
     // selectionSort has an outer loop that, each iteration, has a new "minimum" (i, i+1, i+2, i+3....).
-    // The inner loop, which goes through the entire array, checks if any
-    // number in the array (from i+1 position and above) is less than the number before it.
-    // When a new minimum is found, store that number and its position in the array into variables.
+    // The inner loop starts from i + 1 position and has only 1 "if" statement.
+    // If the number in the jth position is less than the minimum, then we have a new minimum to record.
     // At the end of the inner loop, swap the ith element with the current minimum number.
+    // This algorithm searches the unsorted side of the array.
     public static void selectionSort(int[] array) {
 
         // Outer Loop

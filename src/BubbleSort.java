@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
     // BEST CASE: O(n)*  |  WORST CASE: O(n^2)
-    // NOTE: Best case is only O(n) if you have some way to check that a swap has occurred
+    // NOTE: Best case is only O(n) if you have some way to check that a swap has occurred.
 
     // Given an array and two index numbers, swap positions of numbers in an array.
     public static void swap(int[] numbers, int a, int b) {
@@ -33,7 +33,7 @@ public class BubbleSort {
 
     }
 
-    // Main function holds the array to be sorted
+    // Main function holds the array to be sorted.
     public static void main(String[] args) {
 
         int[] numbers = {6,5,3,1,8,7,2,4};
